@@ -30,6 +30,15 @@ print("dic2['B'] :", dic2['B'])
 print("dic2['C'] :", dic2['C'])
 
 print('dic3 type :', type(dic3))
-print('dic3[101] :', dic3[101])
-print('dic3[101] :', dic3[101])
-print('dic3[101] :', dic3[101])
+print('dic3[101][1] :', dic3[101][1])
+print('dic3[101][4] :', dic3[101][4])
+print('dic3[102][3] :', dic3[102][3])
+print('dic3[103] :', dic3[103])
+print("dic3[104]['p1'] :", dic3[104]['p1'])
+
+# DICTIONARY 응용
+dics = [dic1, dic2, dic3]
+
+print('dics[0][3] :', dics[0][3])
+print("dics[1]['A'] :", dics[1]['A'])
+print("dics[2][104]['p2'] :", dics[2][104]['p2'])
